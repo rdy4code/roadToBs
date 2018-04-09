@@ -1,0 +1,8 @@
+Type command for your current editor (without quotes)
+
+atom: "atom --wait"  
+emacs: "emacs"  
+sublime: "subl -n -w"  
+vscode: "code --wait"  
+  
+$ $ git config --global core.editor <YOUR_EDITOR>
