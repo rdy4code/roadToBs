@@ -1,6 +1,6 @@
 # roadToBs
 
-RoadMap 2018 for bachelor degree (Bs) in computer sience. (France)
+RoadMap 2018 for bachelor degree (Bs) in computer sience (France).
 Application Developer. Developer d'aplication (FR). 
 Frontend Development + Android Development path
 
