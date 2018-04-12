@@ -1,0 +1,13 @@
+// List itimes 
+const fruits = ["Orange", "Apple", "Mango"];
+
+// funnction that recives a list
+const printList = function(list){
+  for (i=0; i<list.length; i++){
+    document.write(list[i]);
+    document.write("</br>");
+  };
+}
+
+//function calls items
+printList(fruits);
