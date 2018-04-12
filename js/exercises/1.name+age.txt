@@ -1,0 +1,5 @@
+const name ="Nina";
+const age = 30;
+
+alert("My name is " + name + " and I'm " + age + " years old.")
+
