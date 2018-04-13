@@ -3,15 +3,15 @@ form 1 to 100.
 But multiplies of three print "Fuzz"  
 multiplies of five print "Buzz" instead of a number  
 for numbers which are multipliers of both three and five  
-print "FuzzBuzz"
+print "FizzBuzz"
 
 *Dumb Solution*
-function printFuzzBuzz(){
+function printFizzBuzz(){
     for(i=1; i<=100; i++){
     if ((i % 3 === 0) && (i % 5 === 0)){
-      console.log("FuzzBuzz")}
+      console.log("FizzBuzz")}
     else if (i % 3 === 0){
-      console.log("Fuzz")
+      console.log("Fizz")
     }   
     else if (i % 5 === 0){
       console.log("Buzz")
@@ -21,18 +21,18 @@ function printFuzzBuzz(){
     }
   }
 }
-printFuzzBuzz();
+printFizzBuzz();
 
-***FuzzBuzz GodMode***
-function printFuzzBuzz(){
+***FizzBuzz GodMode***
+function printFizzBuzz(){
   for(i=1; i<=100; i++){
     let output =""; 
 
-    if(i % 3 === 0){output += "Fuzz";}
+    if(i % 3 === 0){output += "Fizz";}
     if(i % 5 === 0){output += "Buzz";}
     
     if(output ===""){output = i;}
     console.log(output)
   }
 }
-printFuzzBuzz();
+printFizzBuzz();
